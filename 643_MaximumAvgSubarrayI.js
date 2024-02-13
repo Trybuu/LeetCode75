@@ -5,7 +5,6 @@ var findMaxAverage = function (nums, k) {
   for (let i = 0; i < k; i++) {
     sum += nums[i]
   }
-  console.log(`Pierwsza suma równa się ${sum}`)
   avg = sum / k
 
   for (let right = k; right < nums.length; right++) {
